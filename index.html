@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Info</title>
+  <link rel="stylesheet" href="./styles/wether.css">
+  <script src="./scripts/wether.js"defer></script>
+  <script src="./scripts/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Weather Information</h1>
+    <p>Enter a city name to get the current weather details.</p>
+  </header>
+
+  <form id="weather-form">
+    <input type="text" id="city-input" placeholder="Enter city name" required>
+    <button type="submit">Get Weather</button>
+  </form>
+
+  <div id="error-message" class="error"></div>
+  <div id="weather-container"></div>
+
+</body>
+</html>
+
